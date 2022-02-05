@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login | By Code Info</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" name="email" id="email" placeholder="" />
+        <label>Password</label>
+        <input type="password" name="password" id="password" placeholder="" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <p class="para-2">
+      Not have an account? <a href="signup.html">Sign Up Here</a>
+    </p>
+    
+    <div class="results">
+      <p class="result-json-output-login"></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS/form-to-json-login.js"></script>
+    <script src="JS/loginScript.js"></script>
+  </body>
+</html>
